@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CalderonJanellaLab1</string>
+    <string name="loc">Location:                          Taktak Road, Antipolo</string>
+    <string name="cons">Constraint Layout</string>
 </resources>
