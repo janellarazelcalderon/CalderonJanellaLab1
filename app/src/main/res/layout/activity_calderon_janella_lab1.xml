@@ -12,13 +12,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Linear Layout"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="261dp"
-        app:srcCompat="@drawable/resort" />
+        app:srcCompat="@drawable/resort"
+        android:contentDescription="TODO" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -55,7 +57,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="15dp"
             android:text="@string/loc"
             android:textColor="@android:color/background_dark"
@@ -66,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text="Distance from UST: 21.6km"
+            android:text="Distance from UST: 21.65km"
             android:textColor="@android:color/background_dark"
             android:textSize="14sp" />
 

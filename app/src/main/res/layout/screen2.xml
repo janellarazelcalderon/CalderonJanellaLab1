@@ -7,17 +7,21 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="Relative Layout" />
+        android:text="Relative Layout"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="255dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView4"
-        app:srcCompat="@drawable/resort" />
+        app:srcCompat="@drawable/resort"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/textView13"
@@ -37,9 +41,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="183dp"
         android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
         android:text="Location:"
         android:textColor="@android:color/background_dark" />
 
@@ -49,6 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView14"
+        android:layout_alignLeft="@+id/textView14"
         android:layout_marginBottom="142dp"
         android:text="Distance from UST:"
         android:textColor="@android:color/background_dark" />
@@ -58,8 +65,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/textView14"
         android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
         android:text="Taktak Road, Antipolo"
         android:textColor="@android:color/background_dark" />
 
@@ -67,9 +76,10 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView16"
         android:layout_alignStart="@+id/textView16"
         android:layout_alignTop="@+id/textView15"
-        android:text="21.6km"
+        android:text="21.66km"
         android:textColor="@android:color/background_dark" />
 
     <Button
@@ -78,6 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView14"
+        android:layout_alignLeft="@+id/textView14"
         android:layout_marginBottom="50dp"
         android:text="Back" />
 
@@ -86,6 +97,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
         android:layout_alignTop="@+id/button3"
         android:text="Next" />
 
