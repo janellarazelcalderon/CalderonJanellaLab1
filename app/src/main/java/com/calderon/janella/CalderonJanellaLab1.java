@@ -8,6 +8,6 @@ public class CalderonJanellaLab1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.screen2);
+        setContentView(R.layout.activity_calderon_janella_lab1);
     }
 }
